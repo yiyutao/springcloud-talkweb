@@ -1,0 +1,16 @@
+server:
+  port: 8500
+spring:
+  application:
+    name: zuul-8500
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:9000/eureka
+
+zuul:
+  routes:
+    provider:
+      path: /api-user/**
+    consumer-feign-8082:
+      path: /consumer-feign/**

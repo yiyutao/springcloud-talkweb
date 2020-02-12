@@ -16,6 +16,8 @@
         <module>eureka-9000</module>
         <module>eureka-9001</module>
         <module>eureka-9002</module>
+        <module>consumer-feign-8082</module>
+        <module>zuul-8500</module>
     </modules>
 
 

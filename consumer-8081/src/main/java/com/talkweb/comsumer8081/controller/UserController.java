@@ -1,12 +1,7 @@
 package com.talkweb.comsumer8081.controller;
 
-import com.netflix.discovery.converters.Auto;
 import com.talkweb.comsumer8081.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
-import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
-import org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +14,6 @@ public class UserController {
 
     @Autowired
     private RestTemplate restTemplate;
-
 
 
     @GetMapping("/{userId}")
