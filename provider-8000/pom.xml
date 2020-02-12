@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.talkweb</groupId>
-    <artifactId>consumer-8081</artifactId>
+    <artifactId>provider-8000</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>consumer-8081</name>
+    <name>provider-8000</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
