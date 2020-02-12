@@ -1,9 +1,11 @@
-package com.talkweb.comsumer8081;
+package com.talkweb.provider8080;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
+@EnableEurekaClient
 public class SpringbootDemoApplication {
 
     public static void main(String[] args) {

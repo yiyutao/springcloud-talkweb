@@ -1,4 +1,4 @@
-package com.talkweb.comsumer8081.domain;
+package com.talkweb.provider8080.domain;
 
 public class User {
 

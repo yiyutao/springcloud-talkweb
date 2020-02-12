@@ -1,6 +1,6 @@
-package com.talkweb.comsumer8081.service;
+package com.talkweb.provider8080.service;
 
-import com.talkweb.comsumer8081.domain.User;
+import com.talkweb.provider8080.domain.User;
 
 public interface UserService {
 

@@ -10,10 +10,10 @@
     <packaging>pom</packaging>
 
     <modules>
-       
+        <module>consumer-8081</module>
+        <module>provider-8080</module>
+        <module>eureka-9000</module>
     </modules>
-
- 
 
 
 </project>

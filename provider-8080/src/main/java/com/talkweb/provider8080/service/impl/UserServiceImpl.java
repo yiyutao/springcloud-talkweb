@@ -1,7 +1,7 @@
-package com.talkweb.comsumer8081.service.impl;
+package com.talkweb.provider8080.service.impl;
 
-import com.talkweb.comsumer8081.domain.User;
-import com.talkweb.comsumer8081.service.UserService;
+import com.talkweb.provider8080.domain.User;
+import com.talkweb.provider8080.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.ConcurrentHashMap;
